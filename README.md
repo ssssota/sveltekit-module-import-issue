@@ -1,10 +1,20 @@
 # Cannot import that has same name props on the page file
 
+- [Svelte sample](./svelte/README.md)
+  - Work!
+- [Sapper sample](./sapper/README.md)
+  - Work!
+- [Vite(Svelte) sample](./vite/README.md)
+  - Error with clear message
+- [SveltKit sample](./sveltekit/README.md)
+  - Error with unfriendly message
+
 ## usage
 
 ### setup
 
 ```sh
+cd sveltekit
 pnpm i # npm i
 ```
 
@@ -50,7 +60,9 @@ SyntaxError: Unexpected token '.'
 
 ```
 
-## Issue comment
+## Issue
+
+https://github.com/sveltejs/kit/issues/1108
 
 > **Describe the bug**
 > Error has occured if you tried import that has same name props in the page file.
